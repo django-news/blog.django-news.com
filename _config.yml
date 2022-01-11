@@ -1,19 +1,21 @@
 title: Django News Blog
-description: A starter kit for using Tailwind with Jekyll
-author: Your Name
+description: Weekly Django news, articles, projects, and more.
+# author: '<p>Curated by <a href="https://jefftriplett.com">Jeff Triplett</a> &amp; <a href="https://wsvincent.com/about/">William Vincent</a>.</p>'
 
 exclude:
+  - docker-compose.yml
   - Gemfile
   - Gemfile.lock
   - gulpfile.babel.js
+  - justfile
   - LICENSE.md
+  - netlify.toml
   - node_modules
-  - package.json
   - package-lock.json
+  - package.json
   - README.md
   - src
   - tailwind.config.js
-  - netlify.toml
 
 paginate: 5
 paginate_path: /page:num
